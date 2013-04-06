@@ -1,0 +1,8 @@
+This files are just a couple of controllers for the E-puck robot. 
+
+I am sharing this because of the lack of examples in Python and mainly for the file 
+e-puck-goal.py because in it the method updatePosition() is not well explained in 
+the documentations and examples and to get the actual position (xz-coordinates + Theta) 
+was not so easy following the available docs online. 
+
+Hope someone can find this useful.
