@@ -1,8 +1,22 @@
 This files are just a couple of controllers for the E-puck robot. 
 
-I am sharing this because of the lack of examples in Python and mainly for the file 
-e-puck-goal.py because in it the method updatePosition() is not well explained in 
-the documentations and examples and to get the actual position (xz-coordinates + Theta) 
-was not so easy following the available docs online. 
+I am sharing this because of the lack of examples in Python and mainly for the file e-puck-goal.py and its method updatePosition(). Get the actual position (xz-coordinates + Theta) was explained in a couple of papers and docs online but to get good results it's necessary to extract and merge equations from all over.
+
+In order to use them you must have python installed on your system as well as the Webots software and then:
+
+- Open Webots Software.
+
+- Open one of the worlds for e-puck.
+
+- Copy the files to the controllers/ directory in the project.
+
+- If there is any executable file (e-puck[.exe]) within that dir remove it (or rename it).
+
+- Rename the controller you want to use, Eg. e-puck-wall.py --> e-puck.py
+
+- Run the simulation on webots.
 
 Hope someone can find this useful.
+
+--
+Alberto
